@@ -3,37 +3,12 @@ import java.util.logging.MemoryHandler;
 public class AwesomeJavaProgram {
 
     public static void main(String[] args) {
-        //Datos Primitivos:
-
-        //Entero
-        int myInt = 7;
-        
-        //Números de punto flotante:
-        double shoeSize = 5;
-
-        //Carácter
-        char myInitial = 'J';
-
-        //Datos No Primitivos
-        //Secuencias de caracteres
-        String myName = "Jhon";
-
-        double result = myInt * shoeSize;   
-        
-        //Resultados en pantalla
-        System.out.println(myInt * shoeSize);
-        System.out.println(result);
-        System.out.println(myName);
-        System.out.println(myName.length());
-        //Mayusculas
-        System.out.println(myName.toUpperCase());
-        
-        //Llamando a burp()
-        burp();
+         //Llamando a burp()
+        printName("John", 2);
     }
 
-private static void burp() {
-    System.out.println("Buurrp");
+private static void printName(String name, int number) {
+    System.out.println("My name is " + name);
 }
 
 }
