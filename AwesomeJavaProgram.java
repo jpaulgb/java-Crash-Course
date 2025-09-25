@@ -24,7 +24,17 @@ public class AwesomeJavaProgram {
         System.out.println(myInt * shoeSize);
         System.out.println(result);
         System.out.println(myName);
+        System.out.println(myName.length());
+        //Mayusculas
+        System.out.println(myName.toUpperCase());
         
-
+        //Llamando a burp()
+        burp();
     }
+
+private static void burp() {
+    System.out.println("Buurrp");
 }
+
+}
+
