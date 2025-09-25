@@ -4,11 +4,11 @@ public class AwesomeJavaProgram {
 
     public static void main(String[] args) {
          //Llamando a burp()
-        printName("John", 2);
+        System.out.println(printName("John", 2));
     }
 
-private static void printName(String name, int number) {
-    System.out.println("My name is " + name);
+private static String printName(String name, int number) {
+    return("My name is " + name);
 }
 
 }
