@@ -20,9 +20,10 @@ public class AwesomeJavaProgram {
 
         double result = myInt * shoeSize;   
         
-        //Multiplicación
+        //Resultados en pantalla
         System.out.println(myInt * shoeSize);
         System.out.println(result);
+        System.out.println(myName);
         
 
     }
